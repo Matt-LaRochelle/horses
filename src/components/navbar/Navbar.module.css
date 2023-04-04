@@ -1,0 +1,27 @@
+.header {
+    border: 2px solid blue;
+    padding: 10px;
+    color: #f8f8f8;
+    background: linear-gradient(to right, rgb(5, 5, 129), rgb(9, 62, 145));
+}
+
+.h1 {
+    display: inline;
+    position: absolute;
+    top: 2px;
+}
+
+.ul {
+    display: flex;
+    justify-content: end;
+}
+
+.li {
+    padding-right: 30px;
+    list-style-type: none;
+    cursor: pointer;  
+}
+
+.a {
+    color: inherit;
+}
