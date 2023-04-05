@@ -1,0 +1,55 @@
+.container {
+    margin: 1rem;
+}
+
+.grid {
+    /* border: 2px solid aqua; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 2rem;
+}
+
+.card {
+    /* border: 2px solid lime; */
+    width: 330px;
+}
+
+.h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 40ch;
+    padding: .4rem;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 1.4rem;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1090px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
