@@ -1,7 +1,21 @@
 .container {
     padding: 1rem;
-    max-width: 800px;
+    max-width: 60rem;
     margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+.img {
+    max-height: 25rem;
+}
+
+.img2 {
+    width: 80%;
+    margin-top: 10px;
 }
 
 .p {
