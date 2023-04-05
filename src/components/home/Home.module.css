@@ -1,0 +1,35 @@
+.container {
+    margin: 1rem;
+}
+
+.h1 {
+    margin: auto;
+    padding: 20px;
+}
+
+.p {
+    max-width: 75ch;
+    margin: auto;
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+.author {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 220px 100px;
+    max-width: 340px;
+    /* border: 2px solid blue; */
+}
+
+.name {
+    font-size: 1.1rem;
+    margin-top: 43px;
+
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

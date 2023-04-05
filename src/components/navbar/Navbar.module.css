@@ -1,8 +1,8 @@
 .header {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 10px;
     color: #f8f8f8;
-    background: linear-gradient(to right, rgb(5, 5, 129), rgb(9, 62, 145));
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(32, 33, 33));
 }
 
 .h1 {
