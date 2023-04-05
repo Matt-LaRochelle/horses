@@ -3,3 +3,52 @@
     max-width: 800px;
     margin: auto;
 }
+
+.contact {
+    margin-top: 50px;
+    /* border: 2px solid lime; */
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+.input {
+    display: block;
+    border: none;
+    /* height: 30px; */
+    font-size: 1.4rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.message {
+    display: block;
+    border: none;
+    resize: none;
+    /* height: 30px; */
+    font-size: 1.4rem;
+}
+
+.message:focus {
+    outline: none;
+}
+
+.hr {
+    width: 21rem;
+    margin-bottom: 5px;
+}
+
+.btn {
+    color: #f8f8f8;
+    background-color: #222;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    padding: 5px 15px;
+    display:block;
+    margin-left: 16%;
+    margin-top: 10px;
+}
