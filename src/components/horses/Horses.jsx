@@ -4,6 +4,7 @@ import bravado from '../images/Bravado.jpg';
 import babe from '../images/babe.jpg';
 import lexi from '../images/lexi.jpg';
 import gator from '../images/gator.png';
+import ph from '../images/ph.png';
 
 function Horses() {
     return (
@@ -17,8 +18,8 @@ function Horses() {
                 </div>
                 <div className={styles.card}>
                     <h3 className={styles.h3}>Flint</h3>
+                    <img className={styles.img} src={ph} alt="pikango's painting of a horse" />
                     <p className={styles.description}>Former family buggy horse, Flint is exceptionally calm and collected. Trained to ride and drive, Flint is able to accommodate a vast variety of riders. This sweet gelding also shows a lot of promise for jumping.</p>
-                    {/* IMAGE */}
                 </div>
                 <div className={styles.card}>
                     <h3 className={styles.h3}>Babe</h3>

@@ -1,28 +1,31 @@
 .container {
-    margin: 1rem;
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
 }
 
 .p {
     font-size: 1.4rem;
     max-width: 75ch;
     margin: auto;
-    padding: 20px;
 }
 
 .h3 {
-    margin-left: 15%;
-    margin-bottom: 20px;
+    /* margin-left: 15%; */
+    margin-top: 20px;
 }
 
 .grid {
     display: flex;
     justify-content: space-around;
-    margin-right: 40px;
+    margin-right: 2%;
+    margin-bottom: 50px;
+
 }
 
 .ul {
     padding-left: 20px;
-    margin-left: 15%;
+   /* margin-left: 15%; */
 }
 
 .li {
@@ -41,9 +44,5 @@
     .ul {
         padding-left: 2px;
         margin-left: 2%;
-    }
-
-    .grid {
-        margin-right: 2%;
     }
 }

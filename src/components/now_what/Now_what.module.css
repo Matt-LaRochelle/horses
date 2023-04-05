@@ -1,0 +1,17 @@
+.container {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.h3 {
+    margin-top: 50px;
+}
+
+.p {
+    max-width: 75ch;
+}
+
+.ul {
+    margin-left: 30px;
+}
