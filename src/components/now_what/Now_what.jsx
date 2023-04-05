@@ -32,7 +32,7 @@ function Now_what() {
             <h3 className={styles.h3}>Weather Policy</h3>
             <p className={styles.p}>We hold classes in all weather, rain or shine.  We may hold an indoor lesson on stable management,  horse care, and general horse education on days where we cannot ride. If the weather is truly unsafe, lessons may be rescheduled by us.</p>
             <h3 className={styles.h3}>Cancellation Policy</h3>
-            <p className={styles.p}>The teacher-student relationship is one that requires mutual respect. If you are unable to make a lesson, whether that be for sickness or personal matters, you must call<strong>24 hours in advance.</strong> Lessons that are not canceled appropriately will not be eligible for a refund or reschedule. </p>
+            <p className={styles.p}>The teacher-student relationship is one that requires mutual respect. If you are unable to make a lesson, whether that be for sickness or personal matters, you must call <strong>24 hours in advance.</strong> Lessons that are not canceled appropriately will not be eligible for a refund or reschedule. </p>
         </div>
     );
 }
