@@ -15,7 +15,13 @@
 
 .img2 {
     width: 80%;
-    margin-top: 10px;
+    margin-top: 50px;
+}
+
+.lessons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
 }
 
 .p {
@@ -29,4 +35,25 @@
 
 .ul {
     margin-left: 30px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .lessons {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img {
+        display: block;
+        margin: auto;
+    }
+
+    .img2 {
+        display: block;
+        margin: 50px auto;
+    }
 }
