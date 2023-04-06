@@ -1,11 +1,13 @@
 import React from "react";
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
+import l2 from '../images/l2.png';
 
 function Navbar() {
     return (
         <header className={styles.header}>
             <h1 className={styles.h1}>Windmill Equestrian</h1>
+            <img className={styles.img} src={l2} alt="windmill equestrian logo" />
             <nav>
                 <ul className={styles.ul}>
                     <li className={styles.li}>
