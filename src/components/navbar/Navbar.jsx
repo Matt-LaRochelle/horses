@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
 import l2 from '../images/l2.png';
+import {AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 function Navbar() {
+    const [nav, setNav] = useState(false);
+
     return (
         <header className={styles.header}>
-            <h1 className={styles.h1}>Windmill Equestrian</h1>
             <img className={styles.img} src={l2} alt="windmill equestrian logo" />
             <nav>
-                <ul className={styles.ul}>
+                <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
                     <li className={styles.li}>
                         <Link to="/" className={styles.a}>Home</Link>
                     </li>
@@ -30,6 +32,9 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
+            <div onClick={()=> setNav(!nav)} className={styles.mobile_btn}>
+                {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}   
+            </div>
         </header>
     );
 }
