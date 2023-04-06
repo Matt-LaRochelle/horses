@@ -23,7 +23,7 @@ function App() {
         <Route path="how_to" element={<How_to />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
     </div>
   );
