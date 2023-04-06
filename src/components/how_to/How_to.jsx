@@ -5,7 +5,7 @@ import h1 from '../images/h1.jpg';
 function How_to() {
     return (
         <div className={styles.container}>
-            
+            <h1 className={styles.h1}>Preparing for a lesson</h1>
             <h3 className={styles.h3}>What to Wear</h3>
             <p className={styles.p}>You will need to wear pants (breeches preferred), but leggings or  loose fitting jeans are acceptable. <strong>Closed toe shoes</strong> (no sandals or lug soles), preferably a riding boot but shoes with a 1 inch heel or less, or sneakers are ok. We can provide helmets and all tack and equipment for the horse, but bringing your own helmet is encouraged. </p>
             <img src={h1} className={styles.img} alt="horses on a hill" />
