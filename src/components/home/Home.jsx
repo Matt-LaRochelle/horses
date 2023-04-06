@@ -6,7 +6,6 @@ import alois from '../images/images.jpg';
 function Home() {
     return (
         <div className={styles.container}>
-            <h1 className={styles.h1}>Windmill Equestrian</h1>
             <h1 className={styles.h1}>Riding and Carriage Driving Lessons</h1>
             <p className={styles.p}>“The knowledge of the nature of the horse is one of the first foundations of the art of riding it, and every horseman must make it his principle study.”</p>
             <div className={styles.author}>

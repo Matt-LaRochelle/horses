@@ -7,7 +7,7 @@
 .p {
     /* font-size: 1.4rem; */
     max-width: 75ch;
-    font-weight: 200;
+    font-weight: 300;
     /* margin: auto; */
 }
 
@@ -31,7 +31,7 @@
 
 .li {
     list-style-type: circle;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .img {
