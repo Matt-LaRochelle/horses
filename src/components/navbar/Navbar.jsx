@@ -21,7 +21,7 @@ function Navbar() {
                         <Link to="lessons" className={styles.a}>Lessons</Link>
                     </li>
                     <li className={styles.li}>
-                        <Link to="now_what" className={styles.a}>Now What?</Link>
+                        <Link to="how_to" className={styles.a}>How to Prepare</Link>
                     </li>
                     <li className={styles.li}>
                         <Link to="contact" className={styles.a}>Contact</Link>

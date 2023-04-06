@@ -5,14 +5,14 @@
 }
 
 .p {
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
     max-width: 75ch;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .h3 {
     /* margin-left: 15%; */
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .grid {
@@ -20,6 +20,7 @@
     justify-content: space-around;
     margin-right: 2%;
     margin-bottom: 50px;
+    grid-gap: 2rem;
 
 }
 
@@ -37,6 +38,16 @@
     margin-left: 5px;
 }
 
+.cat {
+    rotate: 270deg;
+    width: 20rem;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.horses {
+    width: 45%;
+}
 @media screen and (max-width: 600px) {
     .h3 {
         margin-left: 2%;
