@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from './Navbar.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import l2 from '../images/l2.png';
 import {AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -13,22 +13,88 @@ function Navbar() {
             <nav>
                 <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
                     <li className={styles.li}>
-                        <Link to="/" className={styles.a}>Home</Link>
+                    <NavLink 
+                        to="/"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Home</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="about" className={styles.a}>About</Link>
+                    <NavLink 
+                        to="about"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >
+                        About</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="horses" className={styles.a}>Horses</Link>
+                    <NavLink 
+                        to="horses"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Horses</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="lessons" className={styles.a}>Lessons</Link>
+                    <NavLink 
+                        to="lessons"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >Lessons</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="how_to" className={styles.a}>How to Prepare</Link>
+                    <NavLink 
+                        to="how_to"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}
+                        >How to Prepare</NavLink>
                     </li>
                     <li className={styles.li}>
-                        <Link to="contact" className={styles.a}>Contact</Link>
+                    <NavLink 
+                        to="contact"
+                        onClick={()=> setNav(false)}
+                        style={({ isActive, isPending }) => {
+                            return {
+                            textDecoration: isActive ? "underline" : "inherit",
+                            };
+                        }}
+                        className={({ isActive, isPending }) => {
+                            return isActive ? "active" : isPending ? "pending" : "";
+                        }}>Contact</NavLink>
                     </li>
                 </ul>
             </nav>

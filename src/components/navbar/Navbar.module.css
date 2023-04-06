@@ -27,6 +27,20 @@
     color: inherit;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: underline;
+    /* color: lime; */
+}
+
+.li:hover {
+    text-decoration: underline;
+}
+
 .mobile_btn {
     display: none;
 }
