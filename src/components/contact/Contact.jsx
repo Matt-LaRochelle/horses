@@ -22,7 +22,10 @@ function Contact() {
                     <hr className={styles.hr}></hr>
                     <button className={styles.btn} type="submit">Submit</button>
                 </form>
-                <img className={styles.img} src={h9} alt="Horse in bushes" />
+                <div className={styles.korak}>
+                    <img className={styles.img} src={h9} alt="Horse in bushes" />
+                    <a className={styles.link} href="https://www.crazygames.com/game/robot-unicorn-attack" ><div className={styles.secret}></div></a>
+                </div>
             </div>
         </div>
     );
