@@ -33,7 +33,7 @@ function About() {
             </div>
             
 
-            <h3 className={styles.h3}>Out Trainer</h3>
+            <h3 className={styles.h3}>Our Trainer</h3>
             <p className={styles.p}>Shoshana Haag has a passion for horses that started with riding at age three. She believes that horses should be for everyone and that riding should be safe, fun, and educational. She has been professionally involved in the equestrian world since 15, and has developed her riding and teaching skills in the 20 years since. Shoshana’s goal is to help students acquire the tools for success and build confidence, while learning to appreciate the art and the beauty of a relationship with  horses. By helping students step out of their comfort zone in a safe and positive environment, she allows students to develop skills, connect with horses, and ultimately progress. </p>
             <br></br>
             <p className={styles.p}>Shoshana has</p>
