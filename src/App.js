@@ -8,6 +8,7 @@ import Lessons from './components/lessons/Lessons';
 import How_to from './components/how_to/How_to';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Game from './components/game/Game';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="lessons" element={<Lessons />} />
         <Route path="how_to" element={<How_to />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="game" element={<Game />} />
       </Routes>
       <Footer />
     </BrowserRouter>
