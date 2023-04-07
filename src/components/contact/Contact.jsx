@@ -18,7 +18,7 @@ function Contact() {
                     <input className={styles.input} type="email" name="email" required></input>
                     <hr className={styles.hr}></hr>
                     <label>Message</label>
-                    <textarea className={styles.message} rows="8" cols="30" name="message" required></textarea>
+                    <textarea className={styles.message} rows="8" cols="26" name="message" required></textarea>
                     <hr className={styles.hr}></hr>
                     <button className={styles.btn} type="submit">Submit</button>
                 </form>
