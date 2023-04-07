@@ -1,8 +1,8 @@
 import React from "react";
-import styles from './How_to.module.css';
+import styles from './HowTo.module.css';
 import h1 from '../images/h1.jpg';
 
-function How_to() {
+function HowTo() {
     return (
         <div className={styles.container}>
             <h1 className={styles.h1}>Preparing for a lesson</h1>
@@ -19,4 +19,4 @@ function How_to() {
     );
 }
 
-export default How_to;
+export default HowTo;
