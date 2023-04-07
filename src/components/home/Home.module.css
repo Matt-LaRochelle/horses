@@ -36,3 +36,11 @@
     width: 100px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 500px) {
+    .author {
+        grid-template-columns: repeat(1fr);
+        /* border: 2px solid red; */
+        padding: 5px 30px;
+    }
+}
