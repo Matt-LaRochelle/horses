@@ -25,6 +25,14 @@ function Game() {
         }
     }
 
+    useEffect(() => {
+        const isAlive = setInterval(() => {
+            let dinoTop = window.getComputedStyle(styles.dino).getPropertyValue("top");
+            console.log(dinoTop);
+        }, 10);
+        return () => clearInterval(isAlive);
+    }, []);
+
     
 
     return (
