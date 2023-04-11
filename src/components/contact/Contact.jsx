@@ -7,7 +7,7 @@ function Contact() {
         <div className={styles.container}>
             <h1 className={styles.h1}>Contact Us</h1>
             <div className={styles.grid}>
-                <form className={styles.contact} action="https://formsubmit.co/larochelle.matthew@gmail.com" method="POST">
+                <form className={styles.contact} action="https://formsubmit.co/Windmill.equestrian.2011@gmail.com" method="POST">
                     <label>First Name</label>
                     <input className={styles.input} type="text" name="first_name" required></input>
                     <hr className={styles.hr}></hr>
