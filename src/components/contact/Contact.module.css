@@ -99,7 +99,7 @@ label {
 
     .contact {
         display: block;
-        margin: auto;
+        margin: 0 auto 0;
     }
 
     .secret {
@@ -109,5 +109,9 @@ label {
         position: absolute;
         top: 50px;
         left: 45%;
+    }
+
+    .img {
+        margin-bottom: -50px;
     }
 }

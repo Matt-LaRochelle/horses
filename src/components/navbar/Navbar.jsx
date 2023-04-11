@@ -71,7 +71,7 @@ function Navbar() {
                         </li>
                         <li className={styles.li}>
                         <NavLink 
-                            to="how_to"
+                            to="howto"
                             onClick={()=> setNav(false)}
                             style={({ isActive, isPending }) => {
                                 return {
