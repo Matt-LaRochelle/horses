@@ -63,7 +63,8 @@ label {
 .korak {
     /* border: 2px solid red; */
     position: relative;
-    margin-top: 50px;
+    display: block;
+    margin: 50px auto 0;
     /* padding-top: -150px; */
     max-width: 700px;
 }
@@ -72,6 +73,8 @@ label {
     width: 100%;
     /* margin-top: 50px; */
     max-width: 700px;
+    display: block;
+    margin: auto;
 }
 
 .secret {
@@ -112,6 +115,6 @@ label {
     }
 
     .img {
-        margin-bottom: -50px;
+        margin: 0 auto -50px;
     }
 }
