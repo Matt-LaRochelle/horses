@@ -35,9 +35,8 @@
 
 .cat {
     display: block;
-    rotate: 270deg;
-    width: 20rem;
-    margin: 90px auto;
+    width: 100%;
+    /* margin: 90px auto; */
     /* border: 2px solid red; */
     grid-row: 2;
     grid-column: 1;

@@ -27,8 +27,7 @@
 
 .name {
     font-size: 1.1rem;
-    margin-top: 43px;
-
+    margin-top: 35px;
 }
 
 .img {
@@ -37,9 +36,21 @@
     border-radius: 50%;
 }
 
+.farm {
+    width: 100%;
+    margin-top: 50px;
+    /* margin-bottom: -50px; */
+}
+
+@media screen and (max-width: 980px) {
+    .farm {
+        margin-bottom: -50px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .author {
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: 200px 100px;
         /* border: 2px solid red; */
         padding: 5px 30px;
     }

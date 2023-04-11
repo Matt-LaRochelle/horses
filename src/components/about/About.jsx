@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './About.module.css';
 
-import cat from '../images/cat.png';
+import cat from '../images/cat2.jpg';
 import h2 from '../images/h2.jpg';
 import h3 from '../images/h3.jpg';
 import h4 from '../images/h4.jpg';
