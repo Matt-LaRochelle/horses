@@ -3,16 +3,23 @@ import styles from './About.module.css';
 
 import cat from '../images/cat2.jpg';
 import h2 from '../images/h2.jpg';
+
+//great horse picture vvvv
 import h3 from '../images/h3.jpg';
+import farm from '../images/farm2.jpg'
+import farm2 from '../images/farm3.jpg';
 import h4 from '../images/h4.jpg';
 import h6 from '../images/h6.jpg';
+import pumpkins from '../images/pumpkins.jpg';
+import rooster from '../images/rooster.jpg';
+import flowers from '../images/flowers.jpg';
 
 function About() {
     return (
         <div className={styles.container}>
             <h1 className={styles.h1}>About Us</h1>
             <p className={styles.p}>Windmill Equestrian is proud to offer horseback riding lessons for students aged 12 and up specializing in the foundations of classical riding appropriate for any discipline.</p>
-            <h3 className={styles.h3}>We offer:</h3>
+            <h3 className={styles.h3}>We Offer:</h3>
             <div className={styles.grid}>
                 <ul className={styles.ul}>
                     <li className={styles.li}>Independent balance seat  lunge lessons to teach or improve proper form and poise</li>
@@ -30,6 +37,7 @@ function About() {
                 <p className={styles.pgrid}>Nestled on 15 acres in Southern Maryland, Windmill Equestrian also serves as our family farm. Owned by Jon and Shoshana Haag, the family farm is home to horses, geese, chickens, and a very friendly barn cat named Cole.  Our outdoor arena has lights, and evening lessons are available. </p>
                 <img src={h3} alt="horses in a barn" className={styles.horses} />
                 <img className={styles.cat} src={cat} alt="cat" />
+                <img className={styles.farm} src={farm} alt="barn" />
             </div>
             
 
@@ -50,7 +58,14 @@ function About() {
                 <li className={styles.li}>Trail guiding</li>
                 <li className={styles.li}>And much more!</li>
             </ul>
-            <img className={styles.baby} src={h2} alt="baby horse on the farm" />
+            <div className={styles.imgGrid}>
+            <img className={styles.gridItem} src={h2} alt="baby horse on the farm" />
+            <img className={styles.gridItem} src={pumpkins} alt="Carved Halloween Pumpkins" />
+            <img className={styles.gridItem} src={rooster} alt="rooster" />
+            <img className={styles.gridItem} src={flowers} alt="flowers" />
+
+            </div>
+            
             <p className={styles.p}>When she’s not out working, Shoshana enjoys being with her husband, Jon, and her two children. She loves exploring the beaches of Maryland, opera (she is professionally trained!), making music, and giving back to the community. She is also a doula. </p>
             
         </div>

@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import francois from '../images/La-Gueriniere.jpg';
 import alois from '../images/images.jpg';
 import farm from '../images/farm.jpg';
+import About from '../about/About';
 
 function Home() {
     return (
@@ -19,7 +20,7 @@ function Home() {
                 <img className={styles.img} src={alois} alt="Alois Podhajsky on a horse" />
             </div>
             <img src={farm} alt="farm" className={styles.farm} />
-            
+            <About />
         </div>
     );
 }

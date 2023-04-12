@@ -40,7 +40,7 @@ function Horses() {
             </div>
             
             
-            <p className={styles.p}>Leases Available - showing and competing encouraged!</p>
+            <p className={styles.p}>Leases available - showing and competing encouraged!</p>
         </div>
     );
 }

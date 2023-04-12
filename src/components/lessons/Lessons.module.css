@@ -2,7 +2,7 @@
     padding: 1rem;
     max-width: 52rem;
     margin: auto;
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
 }
 
 .grid {
@@ -11,12 +11,15 @@
     grid-gap: 5rem;
 }
 .img {
-    max-height: 25rem;
+    width: 100%;
+    display: block;
 }
 
 .img2 {
     width: 80%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    display: block;
+    margin: 50px auto 0;
 }
 
 .p {
@@ -39,7 +42,8 @@
     }
 
     .img {
-        display: block;
+        max-height: 25rem;
+        width: auto;
         margin: auto;
     }
 

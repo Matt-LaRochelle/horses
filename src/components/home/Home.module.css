@@ -1,19 +1,19 @@
 .container {
     padding: 1rem;
-    max-width: 60rem;
+    max-width: 52rem;
     margin: auto;
 }
 
 .h1 {
-    margin: auto;
-    padding: 20px;
+    /* margin: auto; */
+    /* padding: 20px; */
 }
 
 .p {
     max-width: 75ch;
-    margin: auto;
+    margin: 20px auto;
     font-size: 1.4rem;
-    padding: 20px;
+    /* padding: 20px; */
     font-weight: 300;
 }
 
@@ -42,11 +42,11 @@
     /* margin-bottom: -50px; */
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     .farm {
         margin-bottom: -50px;
     }
-}
+} */
 
 @media screen and (max-width: 500px) {
     .author {

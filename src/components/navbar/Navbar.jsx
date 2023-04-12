@@ -26,7 +26,7 @@ function Navbar() {
                             }}
                             >Home</NavLink>
                         </li>
-                        <li className={styles.li}>
+                        {/* <li className={styles.li}>
                         <NavLink 
                             to="about"
                             onClick={()=> setNav(false)}
@@ -40,7 +40,7 @@ function Navbar() {
                             }}
                             >
                             About</NavLink>
-                        </li>
+                        </li> */}
                         <li className={styles.li}>
                         <NavLink 
                             to="horses"
