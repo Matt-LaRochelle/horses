@@ -2,8 +2,8 @@ import React from "react";
 import styles from './Horses.module.css';
 import bravado from '../images/Bravado.jpg';
 import babe from '../images/babe.jpg';
-import lexi from '../images/lexi3.jpg';
-import gator from '../images/gator2.jpg';
+import lexi from '../images/Lexi4.png';
+import gator from '../images/gator4.png';
 import flint from '../images/Flint.png';
 import ph from '../images/ph.png';
 
