@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Contact.module.css';
 import h9 from '../images/h9.jpg';
+import { Link } from 'react-router-dom';
 
 function Contact() {
     return (
@@ -24,7 +25,7 @@ function Contact() {
                 </form>
                 <div className={styles.korak}>
                     <img className={styles.img} src={h9} alt="Horse in bushes" />
-                    {/* <a className={styles.link} href="https://www.crazygames.com/game/robot-unicorn-attack" ><div className={styles.secret}></div></a> */}
+                    <Link to="../game" className={styles.link}><div className={styles.secret}></div></Link>
                 </div>
             </div>
         </div>
