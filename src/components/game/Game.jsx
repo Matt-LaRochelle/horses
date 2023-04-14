@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import gator from '../images/gator.png';
 
-const BIRD_SIZE = 20;
+const BIRD_SIZE = 50;
 const GAME_WIDTH = 500;
 const GAME_HEIGHT = 500;
 const GRAVITY = 6;
-const JUMP_HEIGHT = 100;
+const JUMP_HEIGHT = 75;
 const OBSTACLE_WIDTH = 40;
 const OBSTACLE_GAP = 200;
 
@@ -108,7 +109,8 @@ export default Game;
 
 const Bird = styled.div`
 position: absolute;
-background-color: red;
+background: url(${gator}) no-repeat center center/cover;
+${'' /* background-color: red; */}
 height: ${(props) => props.size}px;
 width: ${(props) => props.size}px;
 top: ${(props) => props.top}px;
