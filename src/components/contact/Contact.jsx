@@ -25,7 +25,8 @@ function Contact() {
                 </form>
                 <div className={styles.korak}>
                     <img className={styles.img} src={h9} alt="Horse in bushes" />
-                    <Link to="../game" className={styles.link}><div className={styles.secret}></div></Link>
+                    {/* <Link to="../game" className={styles.link}><div className={styles.secret}></div></Link> */}
+                    <Link to="https://www.crazygames.com/game/robot-unicorn-attack" className={styles.link}><div className={styles.secret}></div></Link>
                 </div>
             </div>
         </div>
