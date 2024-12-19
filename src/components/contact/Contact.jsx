@@ -1,14 +1,18 @@
 import React from "react";
 import styles from './Contact.module.css';
 import h9 from '../images/h9.jpg';
-import { Link } from 'react-router-dom';
 
 function Contact() {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Contact has been disabled as this business has shut down.");
+    }
+
     return (
         <div className={styles.container}>
             <h1 className={styles.h1}>Contact Us</h1>
             <div className={styles.grid}>
-                <form className={styles.contact} action="https://formsubmit.co/larochelle.matthew@gmail.com" method="POST">
+                <form className={styles.contact} onSubmit={handleSubmit}>
                     <label>First Name</label>
                     <input className={styles.input} type="text" name="first_name" required></input>
                     <hr className={styles.hr}></hr>
@@ -26,7 +30,7 @@ function Contact() {
                 <div className={styles.korak}>
                     <img className={styles.img} src={h9} alt="Horse in bushes" />
                     {/* <Link to="../game" className={styles.link}><div className={styles.secret}></div></Link> */}
-                    <Link to="https://www.crazygames.com/game/robot-unicorn-attack" className={styles.link}><div className={styles.secret}></div></Link>
+                    <a href="https://www.crazygames.com/game/robot-unicorn-attack" target="_blank" rel="noopener noreferrer" className={styles.link}><div className={styles.secret}></div></a>
                 </div>
             </div>
         </div>
