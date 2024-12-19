@@ -34,7 +34,7 @@ function About() {
 
             <h3 className={styles.h3}>Our Facility</h3>
             <div className={styles.grid}>
-                <p className={styles.pgrid}>Nestled on 15 acres in Southern Maryland, Windmill Equestrian also serves as our family farm. Owned by Jon and Shoshana Haag, the family farm is home to horses, geese, chickens, and a very friendly barn cat named Cole.  Our outdoor arena has lights, and evening lessons are available. </p>
+                <p className={styles.pgrid}>Nestled on 15 acres in Southern Maryland, Windmill Equestrian also serves as our family farm. Owned by Andy and Brittany, the family farm is home to horses, geese, chickens, and a very friendly barn cat named Cole.  Our outdoor arena has lights, and evening lessons are available. </p>
                 <img src={h3} alt="horses in a barn" className={styles.horses} />
                 <img className={styles.cat} src={cat} alt="cat" />
                 <img className={styles.farm} src={farm} alt="barn" />
@@ -42,14 +42,14 @@ function About() {
             
 
             <h3 className={styles.h3}>Our Trainer</h3>
-            <p className={styles.p}>Shoshana Haag has a passion for horses that started with riding at age three. She believes that horses should be for everyone and that riding should be safe, fun, and educational. She has been professionally involved in the equestrian world since 15, and has developed her riding and teaching skills in the 20 years since. Shoshana’s goal is to help students acquire the tools for success and build confidence, while learning to appreciate the art and the beauty of a relationship with  horses. By helping students step out of their comfort zone in a safe and positive environment, she allows students to develop skills, connect with horses, and ultimately progress. </p>
+            <p className={styles.p}>Brittany has a passion for horses that started with riding at age three. She believes that horses should be for everyone and that riding should be safe, fun, and educational. She has been professionally involved in the equestrian world since 15, and has developed her riding and teaching skills in the 20 years since. Brittany’s goal is to help students acquire the tools for success and build confidence, while learning to appreciate the art and the beauty of a relationship with  horses. By helping students step out of their comfort zone in a safe and positive environment, she allows students to develop skills, connect with horses, and ultimately progress. </p>
             <br></br>
-            <p className={styles.p}>Shoshana has</p>
+            <p className={styles.p}>Brittany has</p>
             <ul className={styles.ul}>
                 <li className={styles.li}>Worked and trained under classical trainer Fernando Cardenas Sr.</li>
                 <li className={styles.li}>Competed in A Circuit jumping up to 3’9”</li>
             </ul>
-            <img className={styles.jump} src={h6} alt="shoshana and horse jumping hurdle" />
+            <img className={styles.jump} src={h6} alt="Brittany and horse jumping hurdle" />
             <p className={styles.p}>And has an expansive breadth of experience from working in</p>
             <ul className={styles.ul}>
                 <li className={styles.li}>Foxhunting and Steeplechase </li>
@@ -66,7 +66,7 @@ function About() {
 
             </div>
             
-            <p className={styles.p}>When she’s not out working, Shoshana enjoys being with her husband, Jon, and her two children. She loves exploring the beaches of Maryland, opera (she is professionally trained!), making music, and giving back to the community. She is also a doula. </p>
+            <p className={styles.p}>When she’s not out working, Brittany enjoys being with her husband, Andy, and her two children. She loves exploring the beaches of Maryland, opera (she is professionally trained!), making music, and giving back to the community. She is also a doula. </p>
             
         </div>
     );

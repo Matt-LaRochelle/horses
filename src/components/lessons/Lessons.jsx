@@ -9,12 +9,12 @@ function Lessons() {
             <h1 className={styles.h1}>Lessons</h1>
             <div className={styles.grid}>
                 <p className={styles.p}>Windmill Equestrian offers lesson options for any level of equestrian, ages 12 and up. For the true beginner, the amateur horse lover, or someone with their hearts set on a future of professional riding, we have something for everyone. For those with more experience,  who are interested in learning how to drive horses, we also offer beginner courses. All lessons require a completed Introduction Lesson, which we offer by appointment only for private riders, or once a month for up to 4 riders. We also offer multi-lesson bundles at a discount. </p>
-                <img className={styles.img} src={h10} alt="Shoshana riding a horse"></img>
+                <img className={styles.img} src={h10} alt="Brittany riding a horse"></img>
             </div>
             <div className={styles.grid}>
                 <div className={styles.lesson}>
                     <h3 className={styles.h3}>Private Introduction Lesson</h3><h4>Ages 12+</h4><h4>One Time Lesson</h4><h4>2 Hours: $120</h4>
-                    <p className={styles.p}>During our Private Introduction Lesson, you will meet one-on-one with our trainer, Shoshana Haag, and get a tour of the facilities, meet the horses, have a riding or driving evaluation, and discuss your visions for  your experience with Windmill Equestrian. Please ask lots of questions! After initial introductions, you will move on to grooming and tacking, learn fundamentals of horse care, and receive an intro to driving or horseback riding  lesson. Although targeted for potential riders newer to horses, who may need to “try it on”, this lesson is required for everyone  in order to be scheduled for any of the bundles. Waivers are required and anyone under age 16 must be accompanied by an adult for the entirety of the lesson. </p>
+                    <p className={styles.p}>During our Private Introduction Lesson, you will meet one-on-one with our trainer, Brittany, and get a tour of the facilities, meet the horses, have a riding or driving evaluation, and discuss your visions for  your experience with Windmill Equestrian. Please ask lots of questions! After initial introductions, you will move on to grooming and tacking, learn fundamentals of horse care, and receive an intro to driving or horseback riding  lesson. Although targeted for potential riders newer to horses, who may need to “try it on”, this lesson is required for everyone  in order to be scheduled for any of the bundles. Waivers are required and anyone under age 16 must be accompanied by an adult for the entirety of the lesson. </p>
                 </div>
                 <div className={styles.lesson}>
                     <h3 className={styles.h3}>Group Introduction Lesson</h3><h4>Ages 12+</h4><h4>Four Rider Slots</h4><h4>2.5 Hours: $60/Rider</h4>
